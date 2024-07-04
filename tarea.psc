@@ -26,4 +26,8 @@ Algoritmo moneda
 		resultado <- cantidad * 0.85
 		Escribir "La cantidad en ", moneda_destino, " es" resultado
 	FinSi
+	Si moneda_fuente es "EUR" y moneda_destino es "AUD" Entonces
+		resultado <- cantidad * 1.61
+		Escribir "La cantidad en ", moneda_destino, " es" resultado
+	FinSi
 FinAlgoritmo
